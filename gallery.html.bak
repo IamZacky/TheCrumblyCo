@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="The Crumbly Company - Peach (1).png" sizes="32x32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Crumbly Co.</title>
+    <link rel="stylesheet" href="red.css">
+	<link rel="stylesheet" href="footerS.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+<div class="header" >
+<a href="index.html" class="logo"><img class="imgLogo" src="The Crumbly Company - Peach (1).png" alt="logo" height="100rem"></a>
+    <h3 class="tagline"><a class= "title" href="index.html"><img class="imgTitle" src="The Crumbly Co (2).png" alt="title"></a>Your daily crumb of sweetness</h3>
+  
+<div class="header-right">
+<nav class="navi">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <li class="dropdown">
+	<a href="products.html" class="dropbutton">Products</a>
+	<div class="dropdown-content">
+      <a href="products.html #ogcookies">OG Cookies</a><br>
+	  <a href="products.html #redvelvet">Red Velvet Series</a><br>
+	  <a href="products.html #cakes">Cakes</a><br>
+	  <a href="products.html #specials">Specials</a><br>
+	</li>
+	
+	<a href="order.html">Order Form</a>
+	<a href="review.html">Reviews</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="about.html">About Us</a>
+	<a href="faq.html">FAQ's</a>
+	<a class="active" href="gallery.html">Gallery</a>
+	<a href="collabs.html">Collabs</a>
+  </nav>
+  </div>
+  </div>
+  </header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+<main>
+	  </br>
+      <h1 style="text-align:center;color:#ad7a4c; font-family: Rockwell">G a l l e r y</h1>
+	  </br>
+	  <div>  
+	  <div class="row">
+		<div class="column">
+		<img src="Couch Cookie - 2.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Break a Brownie - 3.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="S'mores it up - 2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Family Box - 3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	</div>
+  </div>
+  
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Couch Cookie - 2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Break a Brownie - 3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="S'mores it up - 2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Family Box - 3.jpg" style="width:100%">
+    </div>
+	
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="Couch Cookie - 2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Couch Cookie - 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Break a Brownie - 3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Break a Brownie - 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="S'mores it up - 2.jpg" style="width:100%" onclick="currentSlide(3)" alt="S'mores it up - 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Family Box - 3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Family Box - 3">
+     </div>
+    </div>
+   </div>
+  </div>
+  </br>
+      <div>
+  	  <div class="row">
+		<div class="column">
+		<img src="Mini Couch Cookie - 3.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Mini Couch Cookie - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Family Box - 4.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Family Box - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Fave - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Mood - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Extra - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Extra - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Red Velvet - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Flex - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Flex - 3.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Flex - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Minimalist Cake - 3.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 4.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Minimalist Cake - 11.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Minimalist Cake - 7.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 8.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 10.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Minimalist Cake - 14.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Minimalist Cake - 16.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 15.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Minimalist Cake - 17.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Minimalist Cake - 18.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Triple C's Cheesecake - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Triple C's Cheesecake - 4.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Triple C's Cheesecake - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Triple C's Cheesecake - 3.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Baby Cs - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Baby Cs - 3.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Coco Bomb - 1.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Coco Bomb - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Random - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Random - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Cookies - 1.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Cookies -  2.jpeg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	</br>
+  	  <div class="row">
+		<div class="column">
+		<img src="Garlic Bun - 1.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Garlic Bun - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+		<img src="Crumbly Puffs (seasonal) - 1.png" style="width:100%" class="hover-shadow cursor">
+	  </div>
+		<div class="column">
+	  <img src="Crumbly Puffs (seasonal) - 2.jpg" style="width:100%" class="hover-shadow cursor">
+	  </div>
+	</div>
+	
+</div>
+
+
+
+<center>
+<span class = "b">
+<div class="container">
+<h1 class = "contact" style = "font-family: rockwell">Contact Us!</h1>
+<form method="post" action="mailto:thecrumblycompany@gmail.com" autocomplete="on">
+    <div class="row">
+      <div class="col-25">
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+      
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Your Email.." required>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="cpnum">Phone Number: (optional)
+</label>
+      </div>
+      <div class="col-75">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number..(optional)">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+</label>
+      </div>
+      <div class="col-75">
+        <select id="inquiry" name="inquiry" placeholder="Inquiry">
+		  <option value="general inquiry" label="Inquiry" disabled> </option>
+          <option value="general inquiry">General Inquiry</option>
+          <option value="order inquiry">Order Inquiry</option>
+          <option value="reservation">Reservation</option>
+		  <option value="feedback">Feedback</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Write something.." style="height:75px" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input class= "button1" type="submit" value="Send">
+	  <input class= "button1" type="reset" value="Reset">
+    </div>
+  </form>
+ 
+</center>
+
+<center>
+ <footer>
+ <center>
+  <a href="https://www.facebook.com/thecrumblycompany/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/thecrumblycompany/" class="fa fa-instagram"></a>
+<a href="mailto:thecrumblycompany@gmail.com" class="fa fa-google"></a>
+</center>
+</div></span>
+<span class = "b"><img src="The Crumbly Co (2).png" class="footerimg" height=100rem></span>
+</center>
+<div class="copyright">
+©The Crumbly Co. 2021  ||  Lachica, Izaac Manuelle  ||   Saporna, Timothy Jacob   ||  Vallo, Sean Paolo ||  Velasco, Sadie Catherine  ||  Villarama, Red Stephen
+</div>
+</body>
+</html>
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>	  
+</body>
+
+<!--Lightbox-->
+<style>
+body {
+  font-family: Rockwell, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  
+ 
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: red;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>

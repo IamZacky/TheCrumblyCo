@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	table, th, td{border: 3px solid black; background-color:#F5D463;}
+	
+	th, td{padding:25px; text-align:center;}
+	
+	table{font-family:Rockwell; color:black; width: 100%}
+	
+	footer{font-family: Cooper Black; font-size;30px}
+	
+	p{margin-left: 100px; font-family:Rockwell; font-size:25px;color:#694f26}
+	
+	#floatleft{float: left;margin-right: 30px;}
+	
+	#floatright{float: right;margin-left: 30px;}
+	
+	#part1{background-color: #F5D463;color: black; padding: 50px; box-shadow: 40px 40px #FCE8A6; margin: 0px 100px;}
+	
+	#part2{background-color: #F5D463; color: black; padding: 50px; box-shadow: 40px 40px #FCE8A6; margin: 0px 100px; font-family: Rockwell; border-radius: 15px 60px;}
+	
+	h1{ color: #d47090; font-family: Rockwell;
+font-size: 140px; line-height: 160px; font-weight: normal;
+ margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; border: 50px solid transparent;
+	padding: 25px;}
+	
+	h2{font-family: Cooper Black; font-size;40px text-align: center;}
+	
+	li{font-family: Rockwell; font-size:25px}
+	
+	.container {border: 2px solid #ccc; background-color: #eee; border-radius: 5px; padding: 16px; margin: 16px 0;}
+
+    .container::after {content: ""; clear: both; display: table;}
+
+    .container img {float: left; margin-right: 20px; border-radius: 50%;}
+
+    .container span {font-size: 20px;margin-right: 15px;}
+
+    @media (max-width: 500px) {.container {text-align: center;}
+
+    .container img {margin: auto; float: none; display: block;}
+	
+	#borderimage{border: 10px solid transparent; padding: 25px; border-image: url(Border.png) 23 round; margin: 0px 550px;}
+	
+	
+
+</style>
+
+	<link rel="icon" type="image/png" href="The Crumbly Company - Peach (1).png" sizes="32x32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Crumbly Co.</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slideshow.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+<div class="header" >
+<a href="index.html" class="logo"><img class="imgLogo" src="The Crumbly Company - Peach (1).png" alt="logo" height="100rem"></a>
+    <h3 class="tagline"><a class= "title" href="index.html"><img class="imgTitle" src="The Crumbly Co (2).png" alt="title"></a>Your daily crumb of sweetness</h3>
+  
+<div class="header-right">
+<nav class="navi">
+    <a class="active" href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <li class="dropdown">
+	<a  href="products.html" class="dropbutton">Products</a>
+	<div class="dropdown-content">
+      <a href="products.html #ogcookies">OG Cookies</a><br>
+	  <a href="products.html #redvelvet">Red Velvet Series</a><br>
+	  <a href="products.html #cakes">Cakes</a><br>
+	  <a href="products.html #specials">Specials</a><br>
+	</li>
+	
+	<a href="order.html">Order Form</a>
+	<a href="review.html">Reviews</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="about.html">About Us</a>
+	<a href="faq.html">FAQ's</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="collabs.html">Collabs</a>
+  </nav>
+  </div>
+  </div>
+  </header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+<br />
+<br />
+<br />
+<center>
+<!-- start of slideshow html -->
+<div class="slideshow-container">
+<center>
+				<h1 style="border-image: url(border.png) 70 round;">Best Sellers</h1>
+</center>
+<br>
+				<div class="mySlides fade">
+						<a href = "order.html"><img class = "banner" src="Couch Cookie - 3.jpg" style="height:450px; width:100%"></a>
+					<div class="text">COUCH COOKIE</div>
+				</div>
+
+				<div class="mySlides fade">
+						<a href = "order.html"><img class = "banner" src="Red Velvet - 1.jpg" style="height:450px; width:100%"></a>
+					<div class="text">RED VELVET</div>
+				</div>
+
+				<div class="mySlides fade">
+						<a href = "order.html"><img class = "banner" src="Korean Cream Cheese Garlic Bread.PNG" style="height:450px; width:100%"></a>
+					<div class="text">KOREAN CREAM CHEESE GARLIC BREAD</div>
+				</div>
+				
+				<div class="mySlides fade">
+						<a href = "order.html"><img class = "banner" src="S'mores it up - 2.jpg" style="height:450px; width:100%"></a>
+					<div class="text">S'MORES IT UP</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+			</div>
+<!--end of slideshow html-->
+<br><br>
+<div id="part1">
+<h1>Welcome to the Crumbly!! ™</h1>
+<p style ="color:#694f26"><strong>Happiness is the smell of a freshly baked bread!<image src = "bear.gif" width=80 height=80></strong></p>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<br />
+<br />
+<h1 style="color:#665f53;background-color:rgb(199, 191, 177, 0.5)">Bread Bread Bread Bread</h1>
+<div id="part1">
+<img src="Break a Brownie - 2.jpg" width=200 height=200 alt="Brownies">
+<br />
+<br />
+<p> Everything around us is full of surprises and fun facts about something. In this case, you have stumbled upon the bread.</p>
+<p>You are here in this website because either you are interested in bread or you got here accidentally, but it doesn't  matter since you're here allow us
+to introduce Crumbly!! tadaaaa Your daily crumb of sweetness.</p>
+<p>What we have here just ain't about simple breads, this is not your ordinary bakery. We offer a different class and kinds of breads that would surely
+water your mouth with every bite.</p>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<h1 style="color:#665f53;background-color:rgb(199, 191, 177, 0.5)">Bread is Love, Bread is Life</h1>
+<br />
+<br />
+<div id="part1">
+<img id="floatleft" src="Garlic Bun - 1.png" width=290 height=270 alt="Garlic Bun">
+<p> Bread, bread, bread, bread here bread there bread is everyhere, no matter what place, city or country, there's always bread. You know why?
+It's because bread is rich in carbohydrates and fiber, also the same with rice, but with bread you can enjoy different flavors, and besides breads
+are both fun to make and to eat. </p>
+<p>With that being said, Crumbly will make sure that with every bite, you would crave more and more with our specialties and simple way of making our bread</p>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<h1 style="color:#665f53;background-color:rgb(199, 191, 177, 0.5)">Made handful with Love</h1>
+<br />
+<br />
+<div id="part1">
+<img id="floatright" src="Flex - 1.jpg" width=200 height=200 alt="Flex">
+<p>We only have but simple priorities here in our business, and those are taste, quality and cleanliness</p>
+<p>If you think that this is your regular bakery, well that's where you are wrong. We make our bread with passion and love as if making and designing bread is our form
+of art and a way of showing our talents and skills.</p>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<h1 style="color:#665f53;background-color:rgb(199, 191, 177, 0.5)">Importance of Bread</h1>
+<br />
+<br />
+<div id="part1">
+<img src="Flex - 1.jpg" width=200 height=200 alt="Flex">
+<p>Bread is a staple food prepared by baking a dough of flour and water. It is popular around the world, in every household in Ireland and is one of the world’s oldest foods.</p><br />
+<p>The virtually infinite combinations of different flours and differing proportions of ingredients, has resulted in the wide variety of types, shapes, sizes, and textures available around the world. 
+It may be leavened (aerated) by a number of different processes ranging from the use of naturally occurring microbes to high-pressure artificial aeration during preparation and baking, or may be left unleavened. A 
+wide variety of additives may be used, from fruits and nuts to various fats, to chemical additives designed to improve flavour, texture, colour and shelf life.</p><br />
+<p>Bread may be served in different forms at any meal of the day, eaten as a snack and is even used as an ingredient in other culinary preparations. As a basic food worldwide, bread has come to take on significance beyond mere nutrition, 
+evolving into a fixture in religious rituals, secular cultural life and language.</p><br />
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<h1 style ="background-color:rgb(199, 191, 177, 0.5); color: #6e6962"> Little Trivial Facts About Breads</h1>
+<br />
+<br />
+<div id="part1">
+<img src="bulb.png" width=200 height=200 alt="bulb">
+<p style=" font-family:Rockwell; font-size:25px;color:#694f26">Below are some trivial knowledge about breads:</p>
+<br />
+<br />
+<ul  style ="font-family:Rockwell; font-size:25px;color:#694f26">
+    <li>99% of UK households buy bread. We are curious about why the remaining 1% don’t!</li>
+	<br />
+	<li>Bread is low in calories</li>
+	<br />
+	<li>British women eat around 76g of bread every day while men consume approximately 113g a day</li>
+	<br />
+	<li>The NHS says starchy foods like bread should make up a third of our diet but most of us only just manage 20%</li>
+	<br />
+	<li>Bread provides over 10% of the average grown-up’s iron, zinc, magnesium, protein and B vitamins as well as a small amount of essential potassium</li>
+	<br />
+	<li>Bread is the food we waste most. In this country we throw away 32% of it. Which means one in three slices goes straight in the bin.  This happens even though we’re pretty good at checking to see whether we need more. It’s a weird one… what’s going on?</li>
+	<br />
+	<li>85% of the flour used to make British bread is grown at home. Sliced bread was introduced to Britain in the 1930s.</li>
+	<br />
+	<li>Bread is low in fats, sugars and salt</li>
+	<br />
+	<li>A breathtaking 80% of the bread we eat in Britain comes from mega-bakeries, sliced and wrapped. Perhaps this figure goes some way towards explaining why we tend to throw so much of it away?</li>
+	<br />
+	<li>Despite the recent price rises, bread costs 15% less here than it does in France</li>
+	<br />
+	<li>The same survey pinpointed the lovely aroma of fresh toast as our favourite food smell</li>
+	<br />
+	<li>A 2010 survey revealed toast as Britain’s favourite feel-good food</li>
+	<br />
+</ul>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<center>
+<table>
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td><img src="bg.jpg" width=200 height=150 alt="Baby Cereal"></td>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>"Cookies"</p>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>This cookie has balanced sweetness, not too sweet and not too timid just thr right taste.</p>
+</tr>
+
+<tr>
+<td><img src="Break a Brownie - 1.jpg" width=200 height=150 alt="Brownie"></td>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>"Brownie"</p>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>If you are a brownie lover, then you might want to try our brownie special</p>
+</tr>
+
+<tr>
+<td><img src="Coco Bomb - 3.jpg" width=200 height=150 alt="Coco Bomb"></td>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>"Coco Bomb"</p>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>Coco Bomb the name itself tells it all, one bite is an explosion of it's tastiness</p>
+</tr>
+
+<tr>
+<td><img src="Flex - 1.jpg" width=200 height=150 alt="Flex"></td>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>"Flex"</p>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>This pastry is so good that their name is "Flex"</p>
+</tr>
+
+<tr>
+<td><img src="Garlic Bun - 2.jpg" width=200 height=150 alt="Garlic Bun"></td>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>"Garlic Bun"</p>
+<td><h1 style="font-family: Rockwell; font-size: 100%; color:#fff"><p>If you're not a fan of sweet pastry then our specialty "Garlic Bun" might be just for you.</p>
+</tr>
+<hr size="7" noshade color="#000000">
+<br />
+<br />
+<br />
+<br />
+<br />
+</table>
+<br />
+<br />
+<br />
+<br />
+<hr size="7" noshade color="#000000">
+<br />
+<br />
+<br />
+
+<footer>
+<center>
+<span class = "b">
+<div class="container">
+<h1 class = "contact">Contact Us!</h1>
+<form method="post" action="mailto:thecrumblycompany@gmail.com" autocomplete="on">
+    <div class="row">
+      <div class="col-25">
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+      
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Your Email.." required>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="cpnum">Phone Number: (optional)
+</label>
+      </div>
+      <div class="col-75">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number..(optional)">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+</label>
+      </div>
+      <div class="col-75">
+        <select id="inquiry" name="inquiry" placeholder="Inquiry">
+		  <option value="general inquiry" label="Inquiry" disabled> </option>
+          <option value="general inquiry">General Inquiry</option>
+          <option value="order inquiry">Order Inquiry</option>
+          <option value="reservation">Reservation</option>
+		  <option value="feedback">Feedback</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Write something.." style="height:75px" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input class= "button1" type="submit" value="Send">
+	  <input class= "button1" type="reset" value="Reset">
+    </div>
+  </form>
+  <a href="https://www.facebook.com/thecrumblycompany/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/thecrumblycompany/" class="fa fa-instagram"></a>
+<a href="mailto:thecrumblycompany@gmail.com" class="fa fa-google"></a>
+</div></span>
+<span class = "b"><img src="The Crumbly Co (2).png" class="footerimg" height=100rem></span>
+</center>
+</footer>
+<div class="copyright">
+©The Crumbly Co. 2021  ||  Lachica, Izaac Manuelle  ||  Luyun, John Matthew  ||  Saporna, Timothy Jacob  ||  Villarama, Red Stephen
+</div>
+</body>
+</html>
+<!--me section ends -->
+<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				if (n > slides.length) {slideIndex = 1}    
+					if (n < 1) {slideIndex = slides.length}
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";  
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						}
+						slides[slideIndex-1].style.display = "block";  
+						dots[slideIndex-1].className += " active";
+						}
+</script>

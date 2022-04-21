@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="The Crumbly Company - Peach (1).png" sizes="32x32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Crumbly Co.</title>
+    <link rel="stylesheet" href="stylejm.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+<div class="header" >
+<a href="index.html" class="logo"><img class="imgLogo" src="The Crumbly Company - Peach (1).png" alt="logo" height="100rem"></a>
+    <h3 class="tagline"><a class= "title" href="index.html"><img class="imgTitle" src="The Crumbly Co (2).png" alt="title"></a>Your daily crumb of sweetness</h3>
+  
+<div class="header-right">
+<nav class="navi">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <li class="dropdown">
+	<a href="products.html" class="dropbutton">Products</a>
+	<div class="dropdown-content">
+      <a href="products.html #ogcookies">OG Cookies</a><br>
+	  <a href="products.html #redvelvet">Red Velvet Series</a><br>
+	  <a href="products.html #cakes">Cakes</a><br>
+	  <a href="products.html #specials">Specials</a><br>
+	</li>
+	
+	<a href="order.html">Order Form</a>
+	<a href="review.html">Reviews</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="about.html">About Us</a>
+	<a class="active" href="faq.html">FAQ's</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="collabs.html">Collabs</a>
+  </nav>
+  </div>
+  </div>
+  </header>
+
+<div class="border" id="white" >
+
+
+	 </br>
+      <h1 style="text-align:center;color:white; font-family: Rockwell">Frequently Asked Questions (FAQs)</h1>
+	  </br>
+
+	
+	<br />
+	<br />
+	
+	<ol type="1">
+		<li>Do you deliver?</li>
+			<ul>
+				<li>Yes, we deliver through third party couriers like Grab, Angkas, Lalamove, etc. (We choose whichever has the lowest price)
+				</li>
+			</ul>
+		<li>Where are you located?</li>
+			<ul>
+				<li>We are located in Mandaluyong City, near Jose Rizal University or Jollibee Acacia Lane.
+				</li>
+			</ul>
+		<li>Do you have physical stores? </li>
+			<ul>
+				<li>As of the moment, no. 
+				</li>
+			</ul>
+	</ol>
+	</div>
+	
+	<div class="border" id="white">
+		 </br>
+      <h2 style="text-align:center;color:white; font-family: Rockwell">P a y m e n t</h2>
+	  </br>
+		<br />
+		<br />
+		
+		<ol type="1">
+			<li>What are the modes of payment?</li>
+			<ul>
+				<li>BDO (bank deposit or online transfer) and GCASH only.</li>
+			</ul>
+			<li>How much is the delivery fee?</li>
+			<ul>
+				<li>You can send us the address and we can give an estimate price. </li>
+			</ul>
+		</ol>
+	</div>
+	
+	<div class="border" id="white">
+		</br>
+      <h2 style="text-align:center;color:white; font-family: Rockwell"> C o o k i e s</h2>
+	  </br>
+		<br />
+		<br />
+		
+		<ol type="1">
+			<li>How do I reheat the cookies?</li>
+			<ul>
+				<li>We recommend that you reheat cookies in a preheated 300 degrees Fahrenheit oven for 3-5 minutes or until warm. You can also use an oven toaster for 3 minutes or microwave for 10-15 seconds or until warm. </li>
+			</ul>
+			<li>How long do the cookies last?</li>
+			<ul>
+				<li>Placed on an airtight container, cookies can last for 3 days in room temperature and 1 week in the refrigerator. </li>
+			</ul>
+		</ol>
+	</div>
+	</div>
+	<footer>
+<center>
+<span class = "b">
+  <a href="https://www.facebook.com/thecrumblycompany/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/thecrumblycompany/" class="fa fa-instagram"></a>
+<a href="mailto:thecrumblycompany@gmail.com" class="fa fa-google"></a>
+</span><br>
+<span class = "b"><img src="The Crumbly Co (2).png" class="footerimg" height=100rem></span>
+</center>
+</footer>
+<div class="copyright">
+©The Crumbly Co. 2021  ||  Lachica, Izaac Manuelle  ||  Luyun, John Matthew  ||  Saporna, Timothy Jacob  ||  Villarama, Red Stephen
+</div>
+	</body>
+	</html>
+

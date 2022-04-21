@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-size: 15px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.content-odd{
+  color: #ffffff;
+  text-align:left;
+  font-size: 16pt;
+  border-radius: 30px;
+  box-shadow: 3px 5px pink;
+  display: flex;
+  margin-top:50px;
+  margin-left:100px;
+  margin-right:30px;
+  vertical-align:middle;
+ 
+}
+.content-even{
+  color: #ffffff;
+  text-align:left;
+  font-size: 16pt;
+  border-radius: 30px;
+  box-shadow: 3px 5px pink inset;
+  display: flex;
+  margin-top:50px;
+  margin-left:30px;
+  margin-right:100px;
+  vertical-align:middle;
+ 
+}
+
+
+.product{
+	vertical-align:middle;
+	height:130px;
+	width:130px;
+	display:inline;
+	margin:10px;
+}
+
+.productName{
+	margin-left:10px;
+	margin-top:10px;
+	text-align:center;
+	vertical-align:middle;
+}
+.content-odd p{
+	margin-top:40px;
+	margin-left:30px;
+	margin-bottom:40px;
+}
+
+.content-even p{
+	margin-top:40px;
+	margin-bottom:0px;
+	margin-left:30px;
+}
+
+.odd{
+	margin-top:50px;
+	margin-left:150px;
+	margin-right:20px;
+	background-color: #da9682;
+	padding:50px;
+	border-radius: 30px;
+}
+
+.even{
+	margin-top:50px;
+	margin-left:20px;
+	margin-right:150px;
+	background-color: #da9682;
+	padding:50px;
+	border-radius: 30px;
+}
+
+
+.producttitle{
+	font-size:35px;
+	color:#ad7a4c;
+	font-family: Rockwell;
+	 border: 50px solid transparent;
+	padding: 25px;
+	border-image: url(border.png) 70 round;
+}
+
+
+
+
+
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid dodgerblue;
+  border-radius: 20px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+
+}
+
+.button1:hover {
+  background-color: pink;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: pink; 
+  color: black; 
+  border: 2px solid pink;
+  border-radius: 30px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+

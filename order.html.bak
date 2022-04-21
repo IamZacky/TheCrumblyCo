@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="The Crumbly Company - Peach (1).png" sizes="32x32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Crumbly Co.</title>
+    <link rel="stylesheet" href="stylejm.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+<div class="header" >
+<a href="index.html" class="logo"><img class="imgLogo" src="The Crumbly Company - Peach (1).png" alt="logo" height="100rem"></a>
+    <h3 class="tagline"><a class= "title" href="index.html"><img class="imgTitle" src="The Crumbly Co (2).png" alt="title"></a>Your daily crumb of sweetness</h3>
+  
+<div class="header-right">
+<nav class="navi">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <li class="dropdown">
+	<a href="products.html" class="dropbutton">Products</a>
+	<div class="dropdown-content">
+      <a href="products.html #ogcookies">OG Cookies</a><br>
+	  <a href="products.html #redvelvet">Red Velvet Series</a><br>
+	  <a href="products.html #cakes">Cakes</a><br>
+	  <a href="products.html #specials">Specials</a><br>
+	</li>
+	
+	<a class="active" href="order.html">Order Form</a>
+	<a href="review.html">Reviews</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="about.html">About Us</a>
+	<a href="faq.html">FAQ's</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="collabs.html">Collabs</a>
+  </nav>
+  </div>
+  </div>
+  </header>
+
+<div class="border1">
+	<center>
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwU76ZcP8JX7os-zRuW8cFqf7gfzcLwjHC0f8mhNafZzELEQ/viewform?embedded=true" width="500" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</center>
+</div>
+<footer>
+<center>
+<span class = "b">
+
+  <a href="https://www.facebook.com/thecrumblycompany/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/thecrumblycompany/" class="fa fa-instagram"></a>
+<a href="mailto:thecrumblycompany@gmail.com" class="fa fa-google"></a>
+</span><br>
+<span class = "b"><img src="The Crumbly Co (2).png" class="footerimg" height=100rem></span>
+</center>
+</footer>
+<div class="copyright">
+©The Crumbly Co. 2021  ||  Lachica, Izaac Manuelle  ||  Luyun, John Matthew  ||  Saporna, Timothy Jacob  ||  Villarama, Red Stephen
+</div>
+		
+</body>
+</html>
+

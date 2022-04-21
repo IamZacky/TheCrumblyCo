@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="The Crumbly Company - Peach (1).png" sizes="32x32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Crumbly Co.</title>
+    <link rel="stylesheet" href="stylejm.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="collabs2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+<div class="header" >
+<a href="index.html" class="logo"><img class="imgLogo" src="The Crumbly Company - Peach (1).png" alt="logo" height="100rem"></a>
+    <h3 class="tagline"><a class= "title" href="index.html"><img class="imgTitle" src="The Crumbly Co (2).png" alt="title"></a>Your daily crumb of sweetness</h3>
+  
+<div class="header-right">
+<nav class="navi" style = "font-family: Rockwell, sans-serif">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <li class="dropdown">
+	<a href="products.html" class="dropbutton">Products</a>
+	<div class="dropdown-content">
+      <a href="products.html #ogcookies">OG Cookies</a><br>
+	  <a href="products.html #redvelvet">Red Velvet Series</a><br>
+	  <a href="products.html #cakes">Cakes</a><br>
+	  <a href="products.html #specials">Specials</a><br>
+	</li>
+	
+	<a href="order.html">Order Form</a>
+	<a href="review.html">Reviews</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="about.html">About Us</a>
+	<a href="faq.html">FAQ's</a>
+	<a href="gallery.html">Gallery</a>
+	<a class="active" href="collabs.html">Collabs</a>
+  </nav>
+  </div>
+  </div>
+  </header>
+
+	
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="collab1/Slide2.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="collab1/Slide1.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="collab1/Slide3.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="collab1/Slide4.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="collab1/Slide5.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="collab2/Slide1.JPG" style="width:100%">
+  </div>
+  
+<div class="mySlides">
+    <div class="numbertext">7 / 6</div>
+      <img src="collab2/Slide2.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">8 / 6</div>
+      <img src="collab2/Slide3.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">9 / 6</div>
+      <img src="collab2/Slide4.JPG" style="width:100%">
+  </div>
+
+<div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab2/Slide5.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab3/Slide1.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab3/Slide2.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab3/Slide3.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab3/Slide4.JPG" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 6</div>
+      <img src="collab3/Slide5.JPG" style="width:100%">
+  </div>
+  
+  
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="collab1/Slide2.JPG"style="width:100%" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="collab1/Slide1.JPG" style="width:100%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="collab1/Slide3.JPG" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="collab1/Slide4.JPG" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="collab1/Slide5.JPG" style="width:100%" onclick="currentSlide(5)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="collab2/Slide1.JPG" style="width:100%" onclick="currentSlide(6)">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab2/Slide2.JPG" style="width:100%" onclick="currentSlide(7)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab2/Slide3.JPG" style="width:100%" onclick="currentSlide(8)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab2/Slide4.JPG" style="width:100%" onclick="currentSlide(9)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab2/Slide5.JPG" style="width:100%" onclick="currentSlide(10)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab3/Slide1.JPG" style="width:100%" onclick="currentSlide(11)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab3/Slide2.JPG" style="width:100%" onclick="currentSlide(12)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab3/Slide3.JPG" style="width:100%" onclick="currentSlide(13)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab3/Slide4.JPG" style="width:100%" onclick="currentSlide(14)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="collab3/Slide5.JPG" style="width:100%" onclick="currentSlide(15)">
+    </div>
+	
+  </div>
+</div>
+
+
+	
+	
+<footer>
+<center>
+<span class = "b">
+  <a href="https://www.facebook.com/thecrumblycompany/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/thecrumblycompany/" class="fa fa-instagram"></a>
+<a href="mailto:thecrumblycompany@gmail.com" class="fa fa-google"></a>
+</span><br>
+<span class = "b"><img src="The Crumbly Co (2).png" class="footerimg" height=100rem></span>
+</center>
+</footer>
+<div class="copyright">
+©The Crumbly Co. 2021  ||  Lachica, Izaac Manuelle  ||   Saporna, Timothy Jacob   ||  Vallo, Sean Paolo ||  Velasco, Sadie Catherine  ||  Villarama, Red Stephen
+	
+	
+	
+	
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+	
+	</body>
+	</html>
